@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "bosses:raw_silver"
+  },
+  "result": "bosses:silver_ingot"
+}

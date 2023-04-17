@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "bosses:block/rapier_upgrade_station"},
+    "facing=east": {"model": "bosses:block/rapier_upgrade_station", "y": 90},
+    "facing=south": {"model": "bosses:block/rapier_upgrade_station", "y": 180},
+    "facing=west": {"model": "bosses:block/rapier_upgrade_station","y": 270}
+  }
+}

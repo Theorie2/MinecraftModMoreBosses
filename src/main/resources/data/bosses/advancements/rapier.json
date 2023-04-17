@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "bosses:silver_rapier_lvl_one"
+    },
+    "title": "More Bosses!",
+    "description": "The Power lies in the Silver!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "bosses:textures/block/silver_block.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bosses:silver_rapier_lvl_one"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

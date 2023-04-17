@@ -1,0 +1,14 @@
+{
+  "type": "bosses:rapier_upgrading",
+  "ingredients": [
+    {
+      "item": "bosses:garlic"
+    }
+  ],
+  "rapier": {
+    "item": "bosses:silver_rapier_lvl_one"
+  },
+  "output": {
+    "item": "bosses:silver_rapier_lvl_two"
+  }
+}

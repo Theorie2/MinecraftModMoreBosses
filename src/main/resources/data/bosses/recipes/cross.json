@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "bosses:blood_bottle"
+    }
+  },
+  "pattern": [
+    " s ",
+    "sbs",
+    " s "
+  ],
+  "result": {
+    "item": "bosses:cross"
+  }
+}

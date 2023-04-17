@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "bosses:silver_ingot"
+    },
+    "c": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "###",
+    "ccc",
+    "ccc"
+  ],
+  "result": {
+    "item": "bosses:silver_block"
+  }
+}

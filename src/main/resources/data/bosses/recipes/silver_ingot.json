@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients": [
+    {
+      "item": "bosses:silver_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "bosses:silver_ingot"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item.bosses.garlic": "Garlic",
+  "item.bosses.blood_bottle": "Bottle of Blood",
+  "item.bosses.silver_ingot": "Silver Ingot",
+  "item.bosses.raw_silver": "Raw Silver",
+  "item.bosses.cross": "Magic Cross",
+  "item.bosses.vampire_tooth": "Vampire Tooth",
+
+  "item.bosses.silver_rapier_lvl_one": "Silver Rapier Level I",
+  "item.bosses.silver_rapier_lvl_two": "Silver Rapier Level II",
+
+  "block.bosses.bloody_dirt": "Bloody Dirt",
+  "block.bosses.silver_block": "Silver Block",
+  "block.bosses.silver_ore": "Silver Ore",
+  "block.bosses.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.bosses.sun_block": "Sun Block",
+  "block.bosses.rapier_upgrade_station": "Rapier Upgrade Table",
+  "entity.bosses.vampire": "Vampire Lord",
+
+  "block.bosses.rapier_upgrade_station_gui_name": "Rapier Upgrade Station",
+
+  "itemGroup.bosses_tab": "More Bosses",
+
+  "effect.bosses.vampirism_effect": "You feel strange..."
+}
