@@ -1,6 +1,7 @@
 package de.theorie.bosses.entity;
 
 import de.theorie.bosses.MoreBosses;
+import de.theorie.bosses.entity.custom.BadEntity;
 import de.theorie.bosses.entity.custom.VampireEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
@@ -19,6 +20,13 @@ public class ModEntityTypes {
             () -> EntityType.Builder.of(VampireEntity::new, MobCategory.MONSTER)
                     .sized(0.5f,2f)
                     .build(new ResourceLocation(MoreBosses.MODID,"vampire").toString()));
+
+    public static final RegistryObject<EntityType<BadEntity>> BAD = ENTITY_TYPES.register(
+            "bad",
+            () -> EntityType.Builder.of(BadEntity::new, MobCategory.MONSTER)
+                    .sized(0.5f,0.5f)
+                    .build(new ResourceLocation(MoreBosses.MODID,"bad").toString()));
+
 
 
 

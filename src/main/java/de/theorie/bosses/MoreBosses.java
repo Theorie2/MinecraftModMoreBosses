@@ -5,6 +5,7 @@ import de.theorie.bosses.block.ModBlocks;
 import de.theorie.bosses.block.entity.ModBlockEntities;
 import de.theorie.bosses.effect.ModEffects;
 import de.theorie.bosses.entity.ModEntityTypes;
+import de.theorie.bosses.entity.client.BadRenderer;
 import de.theorie.bosses.entity.client.VampireRenderer;
 import de.theorie.bosses.item.ModItems;
 import de.theorie.bosses.particle.ModParticles;
@@ -84,6 +85,7 @@ public class MoreBosses {
         MenuScreens.register(ModMenuTypes.RAPIER_UPGRADE_STATION_MENU.get(), RapierUpgradeStationScreen::new);
 
         EntityRenderers.register(ModEntityTypes.VAMPIRE.get(), VampireRenderer::new);
+        EntityRenderers.register(ModEntityTypes.BAD.get(), BadRenderer::new);
     }
 
 

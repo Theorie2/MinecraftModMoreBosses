@@ -3,6 +3,7 @@ package de.theorie.bosses.event;
 import de.theorie.bosses.MoreBosses;
 
 import de.theorie.bosses.entity.ModEntityTypes;
+import de.theorie.bosses.entity.custom.BadEntity;
 import de.theorie.bosses.entity.custom.VampireEntity;
 import de.theorie.bosses.recipe.RapierUpgradeStationRecipe;
 
@@ -25,5 +26,6 @@ public class ModEventBusEvents {
     @SubscribeEvent
     public static void entityAttributeEvent(EntityAttributeCreationEvent event) {
         event.put(ModEntityTypes.VAMPIRE.get(), VampireEntity.setAttributes());
+        event.put(ModEntityTypes.BAD.get(), BadEntity.setAttributes());
     }
 }
